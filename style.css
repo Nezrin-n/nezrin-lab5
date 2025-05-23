@@ -1,0 +1,160 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: #f4f4f4;
+    color: #333;
+    position: relative;
+}
+
+.container {
+    display: flex;
+    max-width: 800px;
+    margin: 60px auto;
+    background: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    position: relative;
+}
+
+.sidebar {
+    background-color: #0a2940;
+    color: white;
+    width: 30%;
+    padding: 20px;
+}
+
+.sidebar .photo {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.sidebar .photo img {
+    width: 120px;
+    height: 120px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.sidebar .accordion-button {
+    background: none;
+    border: none;
+    color: white;
+    font-size: 16px;
+    text-align: left;
+    width: 100%;
+    padding: 10px 0;
+    cursor: pointer;
+    font-weight: bold;
+    border-bottom: 1px solid white;
+}
+
+.sidebar .accordion-content {
+    display: none;
+    padding-left: 10px;
+    font-size: 14px;
+    margin-top: 8px;
+    margin-bottom: 10px;
+}
+
+.main {
+    width: 70%;
+    padding: 30px;
+    position: relative;
+}
+
+.header h1 {
+    font-size: 28px;
+    margin-bottom: 5px;
+}
+
+.header h1 span:first-child {
+    font-weight: bold;
+}
+
+.header h3 {
+    font-weight: normal;
+    color: #555;
+    border-bottom: 2px solid #0a2940;
+    display: inline-block;
+    padding-bottom: 3px;
+    margin-bottom: 45px;
+    max-width: 240px;
+}
+
+.edit-controls {
+    margin-top: 10px;
+    text-align: right;
+}
+
+.edit-controls button {
+    padding: 6px 14px;
+    margin-left: 10px;
+    border: none;
+    background-color: #0a2940;
+    color: white;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.section {
+    margin-bottom: 20px;
+    padding-left: 5px;
+}
+
+.section h2 {
+    font-size: 16px;
+    margin-bottom: 8px;
+    padding-bottom: 6px;
+    border-bottom: 1px solid #0a2940;
+    color: #0a2940;
+    width: 150px;
+    cursor: pointer;
+}
+
+.accordion-content {
+    display: none;
+}
+
+ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+.job {
+    margin-bottom: 15px;
+}
+
+.job h4 {
+    margin: 5px 0;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.job p {
+    font-size: 14px;
+    margin-bottom: 5px;
+}
+
+textarea,
+input[type="text"] {
+    width: 100%;
+    padding: 5px;
+    margin: 5px 0;
+    font-family: inherit;
+}
+
+button.add-btn,
+button.delete-btn {
+    font-size: 12px;
+    margin-top: 50px;
+    padding: 4px 8px;
+    background: #999;
+    color: white;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}

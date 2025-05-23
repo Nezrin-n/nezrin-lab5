@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CV</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+    <div class="container">
+        <aside class="sidebar">
+            <div class="photo">
+                <img src="sekiller/profile.jpg" alt="Profile Photo" />
+            </div>
+            <div class="accordion-section">
+                <button class="accordion-button sidebar-title">CONTACT</button>
+                <div id="contact" class="accordion-content"></div>
+            </div>
+            <div class="accordion-section">
+                <button class="accordion-button sidebar-title">EDUCATİON</button>
+                <div id="education" class="accordion-content"></div>
+            </div>
+            <div class="accordion-section">
+                <button class="accordion-button sidebar-title">SKİLLS</button>
+                <div id="skills" class="accordion-content"></div>
+            </div>
+            <div class="accordion-section">
+                <button class="accordion-button sidebar-title">LANGUAGES</button>
+                <div id="languages" class="accordion-content"></div>
+            </div>
+        </aside>
+        <main class="main">
+            <div class="header">
+                <h1><span id="name"></span> <span id="surname"></span></h1>
+                <h3 id="title"></h3>
+                <div class="edit-controls">
+                    <button id="editBtn">EDİT</button>
+                    <button id="saveBtn" style="display:none;">SAVE</button>
+                    <button id="resetBtn">RESET</button>
+                </div>
+            </div>
+            <section class="profile section">
+                <h2 class="accordion-button">PROFİLE</h2>
+                <div id="profile" class="accordion-content"></div>
+            </section>
+            <section class="experience section">
+                <h2 class="accordion-button">WORK EXPERİENCE</h2>
+                <div id="experience" class="accordion-content"></div>
+            </section>
+            <section class="references section">
+                <h2 class="accordion-button">REFERENCE</h2>
+                <div id="references" class="accordion-content"></div>
+            </section>
+        </main>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

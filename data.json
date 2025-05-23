@@ -1,0 +1,49 @@
+{
+    "name": "NƏZRİN",
+    "surname": "İSMAYILOVA",
+    "jobTitle": "STUDENT",
+    "contact": [
+        "📞 +994 50 510 87 60",
+        "✉️ nezrin.ismayilovaa0@gmail.com",
+        "📍 Azerbaijan/Baku/Yasamal"
+    ],
+    "education": [
+        {
+            "period": "2013 - 2024",
+            "institution": "Mingachevir city TRHET Lyceum"
+        },
+        {
+            "period": "2024 - 2025",
+            "institution": "AzTU - Information Security"
+        }
+    ],
+    "skills": [
+        "DNS, DHCP, and network", "UI/UX design", "Flask and Django"
+    ],
+    "languages": [
+        "Azerbaijani", "English", "Turkish"
+    ],
+    "profile": "Experienced in designing interactive portfolio websites and personal brands. Professional, articulate, and always ready to take on new challenges.",
+    "experience": [
+        {
+            "company": "Freelancer",
+            "tasks": [
+                "Built 5 custom portfolio websites using HTML/CSS/JavaScript."
+            ]
+        },
+        {
+            "company": "App Developer Intern",
+            "tasks": [
+                "Assisted in developing Android apps using Java and Kotlin."
+            ]
+        }
+    ],
+    "references": [
+        {
+            "name": "Harper Richard",
+            "position": "Priya Nair — Network Security Engineer | Hardworking, curious, and always eager to take on challenges.",
+            "phone": "123-456-7890",
+            "email": "hello@reallygreatsite.com"
+        }
+    ]
+}
